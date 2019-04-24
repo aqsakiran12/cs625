@@ -1,0 +1,13 @@
+\\ Demonstrate an if-else-if ladder.
+class ladder {
+bublic static void main (string args[]) {
+int x;
+
+for(x=0; x<6; x++) {
+if (x==1)
+system.out.printIn("x is one");
+else-if(x==2)
+system.out.printIn("x is two");
+else 
+system.out,printIn("x is not between 1 and 2");
+}
