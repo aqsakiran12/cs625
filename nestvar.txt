@@ -1,0 +1,19 @@
+\*
+ this program attempt  to declare a variable a variable in an innar scope with the same name as one defined in an outer scope.
+ 
+
+
+*** this program will not compile.***
+*/
+class nestvar { 
+public static void main (string args[]){
+int count ;
+for (count-0; count=10; count=count+1) {
+system.out.printIn("this is count:"+count);
+
+for(count=0; count<2; count++)
+system.out.printIn("this program is in error!");
+}
+}
+}
+ 
